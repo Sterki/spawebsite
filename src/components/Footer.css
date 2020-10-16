@@ -1,0 +1,24 @@
+.footer {
+  height: 15rem;
+  background-color: rgb(237, 238, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.footer > .MuiSvgIcon-root {
+  position: absolute;
+  top: -2rem;
+  width: 4rem;
+  height: 4rem;
+  color: rgb(76, 150, 215);
+  background-color: white;
+  border: 1px solid rgb(23, 194, 180);
+  border-radius: 50px;
+  cursor: pointer;
+}
+.footer > .MuiSvgIcon-root:hover {
+  transition: all 0.2s;
+  background-color: rgb(23, 194, 180);
+  color: white;
+}

@@ -9,6 +9,9 @@
   transition: all 0.2s;
   border: 1px solid rgb(23, 194, 180);
 }
+.active {
+  border: 1px solid rgb(23, 194, 180);
+}
 .navbar__linkicon {
   padding: 0.5rem;
   color: rgb(23, 194, 180);

@@ -1,0 +1,29 @@
+.subheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(239, 241, 250);
+  padding: 0.5rem;
+}
+.subheader__phono {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+.subheader__socialmedia {
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+}
+.subheader__socialmedia > .MuiSvgIcon-root {
+  margin-left: 2rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+.subheader__phono > .MuiSvgIcon-root {
+  color: rgb(23, 194, 180);
+}
+.subheader__phono > p {
+  color: rgb(23, 194, 180);
+}

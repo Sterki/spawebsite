@@ -6,16 +6,20 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Banner2 from "./components/Banner2";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Subheader from "./components/Subheader";
 
 function App() {
   return (
     <div className="App">
+      <Subheader />
       <Header />
       <Banner />
       <About id="about" />
       <Services id="services" />
       <Banner2 id="banner2" />
       <Contact id="contact" />
+      <Footer />
     </div>
   );
 }

@@ -13,7 +13,7 @@ function Header() {
     <div className="header">
       <div className="header__container">
         <div className="header__logo">
-          <img src={logoalex} onClick={handleClicktotop} />
+          <img src={logoalex} onClick={handleClicktotop} alt="logo_alex" />
         </div>
         <div className="header__navbar">
           <Navbar />

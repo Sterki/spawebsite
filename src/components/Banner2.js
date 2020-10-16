@@ -10,7 +10,7 @@ function Banner2() {
       />
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/946px-Javascript_badge.svg.png"
-        alt="image-javascript"
+        alt="img-javascript"
       />
       <img
         src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo-title-dark.png"
@@ -18,15 +18,15 @@ function Banner2() {
       />
       <img
         src="https://firebase.google.com/images/brand-guidelines/logo-standard.png"
-        alt="imagen-firebase"
+        alt="img-firebase"
       />
       <img
         src="https://cdn4.iconfinder.com/data/icons/logos-3/456/nodejs-new-pantone-black-512.png"
-        alt="imagen-nodejs"
+        alt="img-nodejs"
       />
       <img
         src="https://cdn.iconscout.com/icon/free/png-256/mongodb-3-1175138.png"
-        alt="imagen-mongodb"
+        alt="img-mongodb"
       />
       <img
         src="https://maxcdn.icons8.com/Share/icon/Logos/html_51600.png"

@@ -7,13 +7,11 @@ function Navbar() {
   const handleClicktotop = () => {
     scroll.scrollToTop();
   };
-
   return (
     <div className="navbar">
       <Link
         className="navbar__linkicon"
         activeClass="active"
-        to="home"
         spy={true}
         smooth={true}
         offset={-70}
