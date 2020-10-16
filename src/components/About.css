@@ -1,0 +1,36 @@
+.about {
+  margin-top: 3rem;
+}
+.about__container {
+  padding: 2rem;
+  max-width: 1000px;
+  width: 95%;
+  margin: 0 auto;
+}
+.about__info {
+  display: flex;
+}
+.about__title {
+  flex: 0.5;
+}
+.about__image {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about__image > img {
+  height: 250px;
+}
+.about__h3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: rgb(71, 151, 210);
+}
+.about__p {
+  color: gray;
+  font-size: 1.1rem;
+}

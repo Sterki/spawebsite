@@ -1,0 +1,48 @@
+import React from "react";
+import "./About.css";
+import dummyText from "./Dummytext";
+
+function About() {
+  return (
+    <div className="about">
+      <div className="about__container">
+        <div className="about__info">
+          <div className="about__title">
+            <div className="about__h3">
+              <h3>Title here</h3>
+            </div>
+            <div className="about__p">
+              <p>{dummyText.dummyTextTitle}</p>
+            </div>
+          </div>
+          <div className="about__image">
+            <img
+              src="https://cdn.pixabay.com/photo/2017/02/13/02/17/project-management-2061635_960_720.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div className="about__container">
+        <div className="about__info">
+          <div className="about__image">
+            <img
+              src="https://cdn.pixabay.com/photo/2017/01/20/19/53/productivity-1995786_960_720.jpg"
+              alt=""
+            />
+          </div>
+          <div className="about__title">
+            <div className="about__h3">
+              <h3>Title here</h3>
+            </div>
+            <div className="about__p">
+              <p>{dummyText.dummyTextTitle}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default About;

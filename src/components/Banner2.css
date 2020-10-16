@@ -1,0 +1,11 @@
+.banner2 {
+  padding: 2rem;
+  background-color: rgb(237, 238, 248);
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner2 > img {
+  height: 5rem;
+}

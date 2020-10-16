@@ -1,0 +1,10 @@
+.banner {
+  height: 600px;
+}
+.home__image {
+  height: 100%;
+}
+.home__img {
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,49 @@
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  background-color: rgb(37, 37, 39);
+}
+.contact__container {
+  max-width: 500px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.contact__h1 {
+  color: white;
+}
+.contact__info {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.contact__info > label {
+  color: white;
+}
+.contact__info > input {
+  min-width: 22rem;
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  color: gray;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+.contact__info > textarea {
+  width: 22rem;
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  color: gray;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+.contact__info > button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+}

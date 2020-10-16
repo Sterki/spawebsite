@@ -1,0 +1,23 @@
+.navbar__link {
+  padding: 0.5rem;
+  color: rgb(23, 194, 180);
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.navbar__link:hover {
+  transition: all 0.2s;
+  border: 1px solid rgb(23, 194, 180);
+}
+.navbar__linkicon {
+  padding: 0.5rem;
+  color: rgb(23, 194, 180);
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.navbar__linkicon:hover {
+  transition: all 0.2s;
+  border: 1px solid rgb(23, 194, 180);
+}
