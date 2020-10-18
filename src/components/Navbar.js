@@ -7,6 +7,8 @@ function Navbar() {
   const handleClicktotop = () => {
     scroll.scrollToTop();
   };
+
+  console.log(window.screen.width);
   return (
     <div className="navbar">
       <Link
@@ -14,7 +16,7 @@ function Navbar() {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={-40}
         duration={600}
         onClick={handleClicktotop}
       >
@@ -26,7 +28,7 @@ function Navbar() {
         activeClass="active"
         to="about"
         spy={true}
-        offset={-70}
+        offset={-50}
         smooth={true}
         duration={600}
       >
@@ -37,7 +39,7 @@ function Navbar() {
         activeClass="active"
         to="services"
         spy={true}
-        offset={-70}
+        offset={-60}
         smooth={true}
         duration={600}
       >
@@ -57,9 +59,9 @@ function Navbar() {
       <Link
         className="navbar__link"
         activeClass="active"
-        to="contact"
+        to="contact__container"
         spy={true}
-        offset={-70}
+        offset={-80}
         smooth={true}
         duration={600}
       >

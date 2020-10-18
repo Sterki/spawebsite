@@ -1,5 +1,10 @@
 .banner {
-  height: 600px;
+  height: 200px;
+}
+@media (min-width: 768px) {
+  .banner {
+    height: 600px;
+  }
 }
 .home__image {
   height: 100%;

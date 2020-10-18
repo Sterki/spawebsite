@@ -5,7 +5,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
+@media (min-width: 768px) {
+  .banner2 {
+    overflow: hidden;
+  }
+}
+/* .banner2::-webkit-scrollbar {
+  display: none;
+} */
 .banner2 > img {
   height: 5rem;
 }

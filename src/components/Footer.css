@@ -1,24 +1,67 @@
 .footer {
-  height: 15rem;
   background-color: rgb(237, 238, 248);
+}
+.footer__iconarrow {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  width: 100%;
 }
-.footer > .MuiSvgIcon-root {
+.footer__iconarrow > .MuiSvgIcon-root {
   position: absolute;
   top: -2rem;
   width: 4rem;
   height: 4rem;
-  color: rgb(76, 150, 215);
-  background-color: white;
-  border: 1px solid rgb(23, 194, 180);
+  color: white;
+  background-color: rgb(23, 194, 180);
   border-radius: 50px;
   cursor: pointer;
 }
-.footer > .MuiSvgIcon-root:hover {
+.footer__iconarrow > .MuiSvgIcon-root:hover {
   transition: all 0.2s;
-  background-color: rgb(23, 194, 180);
-  color: white;
+  background-color: rgb(65, 231, 217);
+}
+.footer_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.footer__copyright {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.footer__copyright > p {
+  margin-left: 0.5rem;
+  color: rgb(23, 194, 180);
+}
+.footer__copyright > .MuiSvgIcon-root {
+  margin-left: 0.5rem;
+  color: rgb(23, 194, 180);
+}
+.footer__services > p {
+  color: gray;
+}
+.footer__subfooter {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+.footer__subfooter > p {
+  margin-right: 1rem;
+}
+.footer__terms {
+  display: flex;
+  align-items: center;
+}
+.footer__created {
+  display: flex;
+  align-items: center;
+}
+.footer__services > h3 {
+  color: gray;
 }

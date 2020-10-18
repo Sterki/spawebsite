@@ -11,14 +11,14 @@ import Subheader from "./components/Subheader";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Subheader />
       <Header />
       <Banner />
       <About id="about" />
       <Services id="services" />
       <Banner2 id="banner2" />
-      <Contact id="contact" />
+      <Contact id="contact__container" />
       <Footer />
     </div>
   );

@@ -6,18 +6,19 @@ import BuildIcon from "@material-ui/icons/Build";
 import dummyText from "./Dummytext";
 import AccessTimeIcon from "@material-ui/icons/AccessTime";
 import AspectRatioIcon from "@material-ui/icons/AspectRatio";
+import SettingsSystemDaydreamIcon from "@material-ui/icons/SettingsSystemDaydream";
 
 function Services() {
   return (
     <div className="services">
       <div className="services__container">
         <div className="services__title">
-          <h1>Services</h1>
+          <h1>Our Services</h1>
         </div>
         <div className="services__firstcolumn">
           <div className="services__icon">
             <div className="services__subtitle">
-              <h3>Subtitle Here</h3>
+              <h3>Web development</h3>
             </div>
             <p>{dummyText.dummyTextParraf}</p>
             <div className="services__buildicon">
@@ -26,7 +27,7 @@ function Services() {
           </div>
           <div className="services__icon2">
             <div className="services__subtitle">
-              <h3>Subtitle Here</h3>
+              <h3>Application maintenance</h3>
             </div>
             <p>{dummyText.dummyTextParraf}</p>
             <div className="services__buildicon">
@@ -35,7 +36,7 @@ function Services() {
           </div>
           <div className="services__icon3">
             <div className="services__subtitle">
-              <h3>Subtitle Here</h3>
+              <h3>Consulting</h3>
             </div>
             <p>{dummyText.dummyTextParraf}</p>
             <div className="services__buildicon">
@@ -48,16 +49,16 @@ function Services() {
         <div className="services__firstcolumn">
           <div className="services__icon">
             <div className="services__subtitle">
-              <h3>Subtitle Here</h3>
+              <h3>Cloud Applications</h3>
             </div>
             <p>{dummyText.dummyTextParraf}</p>
             <div className="services__buildicon">
-              <AccessTimeIcon />
+              <SettingsSystemDaydreamIcon />
             </div>
           </div>
           <div className="services__icon3">
             <div className="services__subtitle">
-              <h3>Subtitle Here</h3>
+              <h3>Custom-Made Products</h3>
             </div>
             <p>{dummyText.dummyTextParraf}</p>
             <div className="services__buildicon">

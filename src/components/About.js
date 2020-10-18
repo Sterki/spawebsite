@@ -9,7 +9,7 @@ function About() {
         <div className="about__info">
           <div className="about__title">
             <div className="about__h3">
-              <h3>Title here</h3>
+              <h3>Who are we?</h3>
             </div>
             <div className="about__p">
               <p>{dummyText.dummyTextTitle}</p>
@@ -24,7 +24,7 @@ function About() {
         </div>
       </div>
       <div className="about__container">
-        <div className="about__info">
+        <div className="about__info" id="aboutsecond">
           <div className="about__image">
             <img
               src="https://cdn.pixabay.com/photo/2017/01/20/19/53/productivity-1995786_960_720.jpg"
@@ -33,7 +33,7 @@ function About() {
           </div>
           <div className="about__title">
             <div className="about__h3">
-              <h3>Title here</h3>
+              <h3>Our ideals</h3>
             </div>
             <div className="about__p">
               <p>{dummyText.dummyTextTitle}</p>
