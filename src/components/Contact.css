@@ -88,6 +88,12 @@
 .contact__info2 > h3 {
   color: white;
 }
+.contac__h4 {
+  color: white;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .contact__adress {
   margin-left: 1rem;
 }

@@ -9,12 +9,18 @@
 }
 .headeridtrans {
   transition: ease-in-out 0.4s;
-  background-color: rgb(37, 37, 39);
+  background-color: rgb(67, 67, 68);
   border-bottom: 1px solid rgb(121, 121, 121);
 }
 .header__container {
   display: flex;
-  flex-direction: column;
+  padding: 0.5rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
 }
 @media (min-width: 768px) {
   .header__container {
@@ -22,8 +28,8 @@
     width: 95%;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row;
     align-items: center;
   }
 }
@@ -33,9 +39,12 @@
 @media (min-width: 768px) {
   .header__logo {
     display: block;
+    position: absolute;
+    left: 2%;
   }
   .header__logo > img {
-    height: 5rem;
+    height: 6.4rem;
+    width: 6.5rem;
     object-fit: contain;
     cursor: pointer;
   }
@@ -46,19 +55,23 @@
 .header__navbar > p {
   padding-left: 1.2rem;
 }
+
 .header__input {
-  display: none;
+  position: relative;
+  display: block;
+  flex: 0.9;
 }
 @media (min-width: 768px) {
   .header__input {
     position: relative;
     display: block;
+    flex: 0.2;
   }
 }
+
 .header__input > input {
-  min-width: 10rem;
-  width: 95%;
   padding: 0.4rem;
+  width: 100%;
   border: none;
   color: gray;
   outline: none;
@@ -66,11 +79,12 @@
 }
 .header__input > .MuiSvgIcon-root {
   position: absolute;
-  left: 9rem;
+  left: 90%;
   top: 0.1rem;
   color: gray;
   cursor: pointer;
 }
+
 .header__input > .MuiSvgIcon-root:hover {
   transition: all 0.2s;
   color: rgb(73, 73, 73);

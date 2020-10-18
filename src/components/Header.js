@@ -32,14 +32,14 @@ function Header() {
   return (
     <div className="header" id="headerid">
       <div className="header__container">
-        <div className="header__logo">
-          <img src={logoalex} onClick={handleClicktotop} alt="logo_alex" />
-        </div>
         <div className="header__navbar">
           <Navbar />
         </div>
+        {/* <div className="header__logo">
+          <img src={logoalex} onClick={handleClicktotop} alt="logo_alex" />
+        </div> */}
         <div className="header__input">
-          <input type="text" placeholder="search something ...." />
+          <input type="text" placeholder="search...." />
           <SearchIcon />
         </div>
       </div>
