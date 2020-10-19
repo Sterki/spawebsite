@@ -12,7 +12,7 @@ function About() {
               <h3>Who are we?</h3>
             </div>
             <div className="about__p">
-              <p>{dummyText.dummyTextTitle}</p>
+              <p>{dummyText.whoarewe}</p>
             </div>
           </div>
           <div className="about__image">
@@ -36,7 +36,7 @@ function About() {
               <h3>Our ideals</h3>
             </div>
             <div className="about__p">
-              <p>{dummyText.dummyTextTitle}</p>
+              <p>{dummyText.ideals}</p>
             </div>
           </div>
         </div>

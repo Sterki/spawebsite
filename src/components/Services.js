@@ -11,59 +11,43 @@ import SettingsSystemDaydreamIcon from "@material-ui/icons/SettingsSystemDaydrea
 function Services() {
   return (
     <div className="services">
+      <h1>Our Services</h1>
       <div className="services__container">
-        <div className="services__title">
-          <h1>Our Services</h1>
-        </div>
-        <div className="services__firstcolumn">
+        <div className="services__info2">
+          <h3>Web Development</h3>
+          <p>{dummyText.webdevelopment}</p>
           <div className="services__icon">
-            <div className="services__subtitle">
-              <h3>Web development</h3>
-            </div>
-            <p>{dummyText.dummyTextParraf}</p>
-            <div className="services__buildicon">
-              <CodeIcon />
-            </div>
+            <CodeIcon />
           </div>
-          <div className="services__icon2">
-            <div className="services__subtitle">
-              <h3>Application maintenance</h3>
-            </div>
-            <p>{dummyText.dummyTextParraf}</p>
-            <div className="services__buildicon">
-              <BuildIcon />
-            </div>
+        </div>
+        <div className="services__info2">
+          <h3>Application Maintenance</h3>
+          <p>{dummyText.mantentcion}</p>
+          <div className="services__icon">
+            <BuildIcon />
           </div>
-          <div className="services__icon3">
-            <div className="services__subtitle">
-              <h3>Consulting</h3>
-            </div>
-            <p>{dummyText.dummyTextParraf}</p>
-            <div className="services__buildicon">
-              <ComputerIcon />
-            </div>
+        </div>
+        <div className="services__info1">
+          <h3>Consulting</h3>
+          <p>{dummyText.consultor}</p>
+          <div className="services__icon">
+            <ComputerIcon />
           </div>
         </div>
       </div>
       <div className="services__container">
-        <div className="services__firstcolumn">
+        <div className="services__info1">
+          <h3>Cloud Applications</h3>
+          <p>{dummyText.cloudapp}</p>
           <div className="services__icon">
-            <div className="services__subtitle">
-              <h3>Cloud Applications</h3>
-            </div>
-            <p>{dummyText.dummyTextParraf}</p>
-            <div className="services__buildicon">
-              <SettingsSystemDaydreamIcon />
-            </div>
+            <SettingsSystemDaydreamIcon />
           </div>
-          <div className="services__icon3">
-            <div className="services__subtitle">
-              <h3>Custom-Made Products</h3>
-            </div>
-            <p>{dummyText.dummyTextParraf}</p>
-            <div className="services__buildicon">
-              <AspectRatioIcon />
-            </div>
+        </div>
+        <div className="services__info2">
+          <h3>Custom-Made Products</h3>
+          <p>{dummyText.custommadeproducto}</p>
+          <div className="services__icon">
+            <AspectRatioIcon />
           </div>
         </div>
       </div>

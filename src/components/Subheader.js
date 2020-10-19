@@ -10,7 +10,7 @@ function Subheader() {
     <div className="subheader">
       <div className="subheader__phono">
         <PhoneIcon />
-        <p>+49-1633833515</p>
+        <p>+49-1000000000</p>
       </div>
       <div className="subheader__socialmedia">
         <InstagramIcon style={{ color: "#e66465" }} />

@@ -4,7 +4,7 @@
 .about__container {
   padding: 1rem;
   max-width: 1000px;
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   border-top: 1px solid lightgray;
 }
@@ -44,6 +44,8 @@
 }
 .about__image > img {
   height: 250px;
+  width: 96%;
+  object-fit: contain;
 }
 .about__h3 {
   width: 100%;

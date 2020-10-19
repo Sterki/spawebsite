@@ -65,7 +65,11 @@ function Contact() {
   return (
     <div className="contact">
       <div className="contact__container">
-        <form id="contact_form" onSubmit={sendEmail}>
+        <form
+          className="contact__formular"
+          id="contact_form"
+          onSubmit={sendEmail}
+        >
           <h1 className="contact__h1">Contact Form</h1>
           <h4 className="contac__h4">
             Would you like more information about us?
@@ -129,13 +133,13 @@ function Contact() {
           <div className="contact__info2">
             <h3>Phone</h3>
             <div className="contact__adress">
-              <p>+49-1633833515</p>
+              <p>+49-1000000000</p>
             </div>
           </div>
           <div className="contact__info2">
             <h3>Direct Contact</h3>
             <div className="contact__adress">
-              <p>alex.rodriguez@arv-solution.com</p>
+              <p>Email@email.com</p>
             </div>
           </div>
         </div>
