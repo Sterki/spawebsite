@@ -3,7 +3,7 @@ import "./Banner2.css";
 
 function Banner2() {
   return (
-    <div className="banner2">
+    <div className="banner2" data-aos="fade-left">
       <img
         src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/064fc70f-5df3-4333-b9d4-f6abe2f946de/react-wp-app8.png"
         alt="imagen-react"

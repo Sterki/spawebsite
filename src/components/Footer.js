@@ -15,7 +15,11 @@ function Footer() {
       <div className="footer__iconarrow">
         <KeyboardArrowUpIcon onClick={handleClicktotop} />
       </div>
-      <div className="footer_container">
+      <div
+        className="footer_container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <div className="footer__services">
           <h3>Title here</h3>
           <p>Services info</p>
@@ -26,7 +30,7 @@ function Footer() {
           <p>Services info</p>
         </div>
         <div className="footer__services">
-        <h3>Title here</h3>
+          <h3>Title here</h3>
           <p>Some info</p>
           <p>Some Info</p>
           <p>Some Info</p>
@@ -35,7 +39,7 @@ function Footer() {
           <p>Some info</p>
         </div>
         <div className="footer__services">
-        <h3>Title here</h3>
+          <h3>Title here</h3>
           <p>Services info</p>
           <p>Services info</p>
           <p>Services info</p>
@@ -44,7 +48,7 @@ function Footer() {
           <p>Services info</p>
         </div>
         <div className="footer__services">
-        <h3>Title here</h3>
+          <h3>Title here</h3>
           <p>Some info</p>
           <p>Some Info</p>
           <p>Some Info</p>
@@ -53,7 +57,11 @@ function Footer() {
           <p>Some info</p>
         </div>
       </div>
-      <div className="footer__subfooter">
+      <div
+        className="footer__subfooter"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <div className="footer__terms">
           <p>Terms and Conditions | Privacy Policy | Legal Notice</p>
         </div>

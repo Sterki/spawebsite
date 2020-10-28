@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./components/Header";
 import "./App.css";
 import Banner from "./components/Banner";
@@ -8,8 +8,13 @@ import Banner2 from "./components/Banner2";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Subheader from "./components/Subheader";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div className="app">
       <Subheader />

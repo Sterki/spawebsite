@@ -64,7 +64,7 @@ function Contact() {
   };
   return (
     <div className="contact">
-      <div className="contact__container">
+      <div className="contact__container" data-aos="fade-right">
         <form
           className="contact__formular"
           id="contact_form"
@@ -125,7 +125,7 @@ function Contact() {
           </div>
         </form>
       </div>
-      <div className="contact__container" id="contactInfo">
+      <div className="contact__container" id="contactInfo" data-aos="fade-left">
         <div className="contact__containerinfo">
           <div className="contact__title">
             <h1>Contact information</h1>

@@ -10,7 +10,7 @@ import SettingsSystemDaydreamIcon from "@material-ui/icons/SettingsSystemDaydrea
 
 function Services() {
   return (
-    <div className="services">
+    <div className="services" data-aos="zoom-in">
       <h1>Our Services</h1>
       <div className="services__container">
         <div className="services__info2">
